@@ -1,0 +1,81 @@
+.titlearea {
+    text-align: center;
+    font-size: 18px;
+    word-wrap: normal;
+    background-position: 3px 4px;
+    border-top: 3px solid #ab966f;
+    border-bottom: 3px solid #ab966f;
+    margin: 18px 0px;
+    height: 45px;
+    line-height: 40px;
+}
+html{
+    background-image: url('https://assets-prd.ignimgs.com/2022/09/17/blood4-1663412275774.png');
+    color:burlywood;
+
+}
+head,h1{
+    font-family: Helvetica;
+}
+h1{
+font-size:20px;
+text-align: center;
+
+}
+h2{
+    text-align: center;
+
+}
+
+
+ 
+/* Set additional styling options for the columns */
+.column {
+float: left;
+column-gap: 50px;
+margin: 20px;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+width: 30%;
+}
+
+.middle {
+width: 30%;
+}
+
+.right {
+width: 30%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+p{
+    width: 80%;
+}
+.button {
+    display: block;
+    background-color: #61869b; /* Green */
+size:10px;
+    margin: 20px auto;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 24px;
+    border-radius: 20px;
+    transition: all 200ms ease;
+    box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+    cursor: pointer;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+head{
+    font-size: 60px;
+ 
+}  
